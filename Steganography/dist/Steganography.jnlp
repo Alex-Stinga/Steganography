@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Steganography.jnlp">
+  <information>
+    <title>Steganography</title>
+    <vendor>Alex</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Steganography.jar" size="49678" download="eager" />
+    <jar href="lib\JavaLibrary.jar" size="6413" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Steganography" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="steganography.Steganography"  name="Steganography" />
+  <update check="always"/>
+</jnlp>
